@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Geneva,Verdana,Arial,sans-serif;
+	font-size: 10pt;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+body {
+	margin: 16px;
+}
+
+footer, header {
+	text-align: center;
+}
+
+section {
+	margin: 1em 0;
+}
+
+.td-votes input {
+	width: 4em;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.td-percentage {
+	text-align: left;
+	width: calc(205px + 7em);
+}
+
+.percentage-bar {
+	display: inline-block;
+	margin: auto 0 0 0;
+	height: 7px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #69a6d6;
+}
+
+.td-rating {
+	text-align: right;
+}
+
+.actual-table {
+	border-collapse: collapse;
+}
+
+.actual-table th, .actual-table td {
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+}
+
+.actual-table th {
+	background-color: #3e3e3e;
+}
+
+footer {
+	font-size: 8pt;
+	font-style: italic;
+}
+
+
+

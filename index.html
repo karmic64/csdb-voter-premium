@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>CSDb Voter PREMIUM</title>
+		<link href="voter.css" rel="stylesheet">
+	</head>
+	<body>
+		<noscript>this page requires js enabled</noscript>
+		<header>
+			<h1>CSDb Voter PREMIUM</h1>
+			<p>The ultimate CSDb voting tool is now available online! Just type in the current votes on the release you'd like to vote on and you can see the full weighted average, as well as the optimal votes to bring the score up/down as much as possible.</p>
+		</header>
+		<main>
+			<section>
+				<div id="fake-stats"></div>
+			</section>
+			<section>
+				<table id="votes-entry-table">
+					<thead>
+						<tr>
+							<th>Votes</th>
+							<th>Percentage</th>
+							<th>Rating</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="td-votes"><input id="votes-10" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-10"></td>
+							<td class="td-rating">10</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-9" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-9"></td>
+							<td class="td-rating">9</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-8" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-8"></td>
+							<td class="td-rating">8</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-7" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-7"></td>
+							<td class="td-rating">7</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-6" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-6"></td>
+							<td class="td-rating">6</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-5" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-5"></td>
+							<td class="td-rating">5</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-4" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-4"></td>
+							<td class="td-rating">4</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-3" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-3"></td>
+							<td class="td-rating">3</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-2" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-2"></td>
+							<td class="td-rating">2</td>
+						</tr>
+						<tr>
+							<td class="td-votes"><input id="votes-1" type="number" min="0" step="1"></td>
+							<td class="td-percentage" id="percentage-1"></td>
+							<td class="td-rating">1</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<hr>
+			<section>
+				<div id="full-numbers"></div>
+			</section>
+			<section>
+				<div id="possible-votes"></div>
+			</section>
+			<section>
+				<div id="best-votes"></div>
+			</section>
+		</main>
+		<footer>
+			<div>Original <a href="https://csdb.dk/release/?id=188308" target="_blank">CSDb Voter PRO</a> by Pissnelke/Penisbruch<br>Disassembled/recoded by karmic, December 7-8, 2024</div>
+		</footer>
+		<script src="voter.js"></script>
+	</body>
+</html>
